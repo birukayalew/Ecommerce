@@ -20,3 +20,94 @@ body{
 a:-webkit-any(){
     cursor: pointer;
 }
+
+/*part2*/
+.main{
+    flex-direction: row-reverse;
+}
+.net{
+    display: inline-block;
+}
+
+.profileimage{
+    border-radius: 3px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+img{
+    height: 200px;
+    max-width: 100%;
+    display: block;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    overflow: hidden;
+    border-style: none;
+}
+.title h2{
+    color: #333;
+    font-size: 1.75rem;
+    font-weight: 300;
+    margin: 20px 0 10px;
+}
+.title h3{
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgba(0,0,0,.54);
+    margin: 0 0 10px;
+}
+.title a:hover{
+    color: #06805e;
+}
+a{
+    color: #06805e;
+}
+.networks,.education{
+    list-style: none;
+}
+.networks .fa{
+    font-size: 2rem;
+    display: inline-block;
+}
+.networks li{
+    display: inline-block;
+}
+h1,h2,h3{
+    letter-spacing: .04em;
+    font-family: lora,sans-serif;
+    line-height: 1.25;
+    word-wrap: break-word;
+    word-break: break-word;
+    hyphens: manual;
+    font-size: 2rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
+}
+.Interests li{
+    font-size: .9rem;
+}
+.institution{
+    font-size: .75rem;
+    color: rgba(0,0,0,.6);
+}
+.course{
+    font-size: .9rem;
+}
+
+.carousel-item{
+    padding: 3em 0;
+}
+.comment{
+    max-width: 768px;
+    font-size: 1.35rem;
+}
+.carousel-item{
+    height: 325px;
+    min-height: 325px;
+    background-color: rgb(64, 64, 64);
+}
+.carousel-item p{
+    color: white;
+}
+/*part3*/
+
+/*part4*/
