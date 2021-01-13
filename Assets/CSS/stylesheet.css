@@ -1,0 +1,22 @@
+body{
+    background-color: #f0f7fa;
+}
+/*navbar*/
+.container-fluid{
+    padding-top: 1rem;
+    padding-bottom: 1em;
+}
+.fa{
+    line-height: 1;
+    font-weight: 900;
+}
+.nav-bar{
+    letter-spacing: 1em;
+    font-size: 9em;
+}
+.nav-link{
+    color: rgba(23,42,58,.85);
+}
+a:-webkit-any(){
+    cursor: pointer;
+}
