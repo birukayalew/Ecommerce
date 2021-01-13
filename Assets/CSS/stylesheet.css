@@ -1,5 +1,7 @@
 body{
     background-color: #f0f7fa;
+    font-size: 1rem;
+    
 }
 /*navbar*/
 .container-fluid{
@@ -10,9 +12,24 @@ body{
     line-height: 1;
     font-weight: 900;
 }
+#mainNav{
+    background-color: #f0f7fa;
+    margin-bottom: 4rem;
+}
 .nav-bar{
     letter-spacing: 1em;
     font-size: 9em;
+}
+#navBar{
+    margin-left: auto;
+}
+#navBar li a:hover{
+    text-decoration: underline;
+    color: rgba(23,42,58,.85);;
+}
+
+#navContainer{
+    margin-right: 15%;
 }
 .nav-link{
     color: rgba(23,42,58,.85);
@@ -20,10 +37,20 @@ body{
 a:-webkit-any(){
     cursor: pointer;
 }
-
+.nav-item{
+    padding: 0.3rem;
+}
+.container{
+    margin-left: 11rem; 
+}
+#para{
+    margin-bottom: 3rem;
+    
+}
 /*part2*/
 .main{
     flex-direction: row-reverse;
+    margin-bottom: 5rem;
 }
 .net{
     display: inline-block;
@@ -41,7 +68,14 @@ img{
     background: #fff;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
     overflow: hidden;
-    border-style: none;
+}
+h1,h2,h3{
+    color: #172a3a;
+    letter-spacing: .04em;
+    font-family: lora,sans-serif;
+    line-height: 1.25;
+    margin-bottom: .5rem;
+    font-weight: 400;
 }
 .title h2{
     color: #333;
@@ -71,17 +105,7 @@ a{
 .networks li{
     display: inline-block;
 }
-h1,h2,h3{
-    letter-spacing: .04em;
-    font-family: lora,sans-serif;
-    line-height: 1.25;
-    word-wrap: break-word;
-    word-break: break-word;
-    hyphens: manual;
-    font-size: 2rem;
-    margin-bottom: .5rem;
-    font-weight: 500;
-}
+
 .Interests li{
     font-size: .9rem;
 }
@@ -111,3 +135,7 @@ h1,h2,h3{
 /*part3*/
 
 /*part4*/
+.lately{
+    padding: 0px 0 20px 0;
+    text-align: center;
+}
