@@ -207,3 +207,32 @@ a{
     margin-top: 8rem;
 }
 
+/*
+blog
+*/
+@media (max-width: 991.98px){
+.navbar-brand {
+    margin: 0 auto;
+}}
+.navbar-brand {
+    font-weight: 700;
+    
+}
+.page-item:last-child .page-l {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.page-item:first-child .page-l {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.page-link {
+    color: #004346;
+    background-color: #f0f7fa;}
+.page-link:hover{
+    background-color: #06805e;
+    color: white;
+}
+
+
+
