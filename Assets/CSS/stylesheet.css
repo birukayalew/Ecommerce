@@ -461,3 +461,36 @@ h1{
     opacity: .6;
 }
 
+
+
+.badge-pill {
+    padding-right: .7em;
+    padding-left: .7em;
+    border-radius: 11rem;
+}
+.h-50 {
+    height: 50%!important;
+}
+.m-2 {
+    margin: .5rem!important;
+}
+.h-50 {
+    height: 50%!important;
+}
+.exp1 .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.exp2 .m-2 .border, .exp2 .col.border-right {
+    border-color: #06805e!important;
+}
+.border-right {
+    border-right: 1px solid #dee2e6!important;
+}
+.exp2 .m-2 .border.exp-fill {
+    background-color: #06805e!important;
+}
+
+
