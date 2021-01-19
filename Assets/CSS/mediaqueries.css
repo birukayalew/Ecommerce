@@ -1,0 +1,59 @@
+@media (max-width: 992px){
+    .navbar-collapse {
+        z-index: 1031!important;
+        position: absolute;
+        left: 0;
+        top: 50px;
+        width: 100%;
+        background-color: #f0f7fa;
+        text-align: center!important;
+    }
+    .container-fluid{
+        max-width: 100%;
+    }
+    
+    .navbar-brand {
+        margin-left: auto;
+        color:#172a3a;}
+    .homeImg img{
+        width: 100px;
+        height: 100px;
+    }
+    .p{
+       
+        margin: 0;
+        padding: 0;
+    }
+    }
+    @media(max-width: 768px){
+        #profile img{
+            width: 200px;
+            height: 200px;
+        }
+        .homeImg img{
+            width: 80px;
+            height: 80px;
+        }
+        .navbar-brand {
+            color:#172a3a;}
+        .verticaltext{
+            width:1px;
+            word-wrap: break-word;
+            white-space:pre-wrap; 
+            }
+        .friends img{
+            width: 40%;
+            height: 40%;
+        }
+    }
+    @media(max-width:960px){
+        .together p,.together li,.article-style p,.text-center{
+            font-size: 1rem; 
+        }
+        .article-style p{
+            font-size: 13px;
+        }
+        .together h3,.article a{
+            font-size: 1.25rem;
+        }
+    }
